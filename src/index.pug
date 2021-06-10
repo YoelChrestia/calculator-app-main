@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles.css")
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet"> 
+        link(rel="shortcut icon", href="../images/favicon-32x32.png", type="image/x-icon")
+        title Calculator
+        
+    body#body.body-left 
+        header.header.header-left#header
+            h1.logo calc
+            div.right__content
+              p.theme-h THEME
+              div.button__contain 
+                p.numbers-h 1 2 3
+                div.button-h.buttonh-left.keyboard-left#buttonh 
+                    div.button__circle.circle-left#button__circle 
+        div.display#display.display-left
+            p.display__number#display__number.header-left 0
+        section.keyboard.keyboard-left#keyboard
+            div.keyboard__contain
+                #seven.button.button-left.allButtons 7
+                #eight.button.button-left.allButtons 8
+                #nine.button.button-left.allButtons 9
+                #del.button-del.reset-left.dot-left .
+                #four.button.button-left.allButtons 4
+                #five.button.button-left.allButtons 5
+                #six.button.button-left.allButtons 6
+                #sum.button.button-left.allButtons +
+                #one.button.button-left.allButtons 1
+                #two.button.button-left.allButtons 2
+                #three.button.button-left.allButtons 3
+                #rest.button.button-left.allButtons -
+                #dot.button.button-left.allButtons .
+                #zero.button.button-left.allButtons 0
+                #slash.button.button-left.allButtons /
+                #multiplier.button.button-left.allButtons x
+                #reset.button-reset.reset-left RESET 
+                #equal.button-equal.equal-left =
+        script(src="./script.js")

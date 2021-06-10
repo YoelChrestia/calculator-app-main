@@ -1,0 +1,16 @@
+{
+  "name": "calculator-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.32.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./src:./docs"
+  },
+  "author": "",
+  "license": "ISC"
+}

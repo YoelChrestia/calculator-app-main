@@ -1,0 +1,291 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.5s ease;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 90px;
+  align-items: center;
+  max-width: 375px;
+}
+
+.right__content {
+  display: flex;
+  align-items: flex-end;
+  width: 42%;
+  justify-content: space-between;
+}
+
+.numbers-h {
+  font-size: 12px;
+  letter-spacing: 6px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.theme-h {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.button-h {
+  width: 68px;
+  height: 25px;
+  border-radius: 12px;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+.button__circle {
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+}
+
+.display {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 85px;
+  border-radius: 9px;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 375px;
+  overflow: hidden;
+}
+
+.display__number {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.keyboard {
+  width: 90%;
+  margin: auto;
+  margin-top: 22px;
+  border-radius: 9px;
+  max-width: 375px;
+}
+
+.keyboard__contain {
+  width: 90%;
+  margin: auto;
+  padding-top: 6px;
+  padding-bottom: 20px;
+  max-width: 305px;
+}
+
+.button {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  margin-left: 7px;
+  margin-top: 14px;
+  text-align: center;
+  padding-top: 22px;
+  font-size: 25px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-del {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  margin-left: 7px;
+  margin-top: 14px;
+  text-align: center;
+  padding-top: 22px;
+  font-size: 25px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-del::after {
+  position: absolute;
+  content: "DEL";
+  color: white;
+  left: 13px;
+  font-size: 18px;
+}
+
+.button-reset {
+  display: inline-block;
+  margin-left: 8px;
+  margin-top: 14px;
+  height: 60px;
+  width: 141px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 9px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-equal {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 14px;
+  height: 60px;
+  width: 141px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 9px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttonh-center {
+  justify-content: center;
+}
+
+.buttonh-right {
+  justify-content: flex-end;
+}
+
+.buttonh-left {
+  justify-content: left;
+}
+
+.circle-left {
+  background-color: #d93a36;
+}
+
+.circle-center {
+  background-color: #cc5200;
+}
+
+.circle-right {
+  background-color: #00decf;
+}
+
+.header-left {
+  color: white;
+}
+
+.header-center {
+  color: black;
+}
+
+.header-right {
+  color: #fae35d;
+}
+
+.keyboard-left {
+  background-color: #252d44;
+}
+
+.keyboard-center {
+  background-color: #d3cdcd;
+}
+
+.keyboard-right {
+  background-color: #1e0836;
+}
+
+.body-left {
+  background-color: #3b4664;
+}
+
+.body-center {
+  background-color: #e6e6e6;
+}
+
+.body-right {
+  background-color: #17062a;
+}
+
+.reset-left {
+  background-color: #637298;
+  box-shadow: 0px 5px 0px 0px rgba(65, 79, 118, 0.75);
+}
+
+.reset-center {
+  background-color: #388187;
+  box-shadow: 0px 5px 0px 0px rgba(22, 69, 75, 0.75);
+}
+
+.reset-right {
+  background-color: #56077c;
+  box-shadow: 0px 5px 0px 0px rgba(188, 23, 241, 0.75);
+}
+
+.button-left {
+  background-color: #eae3db;
+  color: #252d44;
+  box-shadow: 0px 5px 0px 0px rgba(230, 211, 216, 0.75);
+}
+
+.button-center {
+  background-color: #e5e4e0;
+  color: black;
+  box-shadow: 0px 5px 0px 0px rgba(167, 157, 146, 0.75);
+}
+
+.button-right {
+  background-color: #331b4e;
+  color: #fae35d;
+  box-shadow: 0px 5px 0px 0px rgba(129, 34, 151, 0.75);
+}
+
+.dot-left {
+  color: #637298;
+}
+
+.dot-center {
+  color: #388187;
+}
+
+.dot-right {
+  color: #56077c;
+}
+
+.display-left {
+  background-color: #181f32;
+}
+
+.display-center {
+  background-color: #eeeeee;
+}
+
+.display-right {
+  background-color: #1e0836;
+}
+
+.equal-left {
+  background-color: #d93a36;
+  color: white;
+  box-shadow: 0px 5px 0px 0px rgba(190, 51, 44, 0.75);
+}
+
+.equal-center {
+  background-color: #cc5200;
+  color: white;
+  box-shadow: 0px 5px 0px 0px rgba(100, 50, 15, 0.75);
+}
+
+.equal-right {
+  background-color: #00decf;
+  color: black;
+  box-shadow: 0px 5px 0px 0px #00decf;
+}
+
+/*# sourceMappingURL=styles.css.map */
